@@ -63,7 +63,7 @@ exports.spotify = {
 };
 ```
 
-4. Next, create a file named `.env`, add the following to it, replacing the values with your API keys (no quotes) once you have them:
+4. // DONE // Next, create a file named `.env`, add the following to it, replacing the values with your API keys (no quotes) once you have them:
 
 ```js
 # Spotify API keys
@@ -77,21 +77,21 @@ SPOTIFY_SECRET=your-spotify-secret
 
 * If someone wanted to clone your app from github and run it themselves, they would need to supply their own `.env` file for it to work.
 
-5. Make a file called `random.txt`.
+5. // DONE // Make a file called `random.txt`.
 
    * Inside of `random.txt` put the following in with no extra characters or white space:
 
      * spotify-this-song,"I Want it That Way"
 
-6. Make a JavaScript file named `liri.js`.
+6. // DONE // Make a JavaScript file named `liri.js`.
 
-7. At the top of the `liri.js` file, add code to read and set any environment variables with the dotenv package:
+7. // DONE // At the top of the `liri.js` file, add code to read and set any environment variables with the dotenv package:
 
 ```js
 require("dotenv").config();
 ```
 
-8. Add the code required to import the `keys.js` file and store it in a variable.
+8. // DONE // Add the code required to import the `keys.js` file and store it in a variable.
 
 ```js
   var keys = require("./keys.js");
