@@ -16,8 +16,8 @@ All dependencies will be installed from the package.json file.  After running np
 
     '# Spotify API keys
 
-    SPOTIFY_ID=9fe8ffa829ce4be997cc8469500473de
-    SPOTIFY_SECRET=ce1c373169904dbd947b761a47db8a58'
+    SPOTIFY_ID=id
+    SPOTIFY_SECRET=secret'
 
 ## Built With
 
