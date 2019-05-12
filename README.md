@@ -8,11 +8,7 @@ Clone the repo > npm install.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You will need Node.js and npm, axios, moment, dotenv, and the spotify npm package to get going.
 
 ### Installing
 
