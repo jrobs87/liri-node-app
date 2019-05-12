@@ -115,8 +115,9 @@ const spotifySearch = function () {
 }
 
 const movieSearch = function () {
-    if (params === '');
+    if (params === '') {
     params = 'Mr. Nobody';
+    } 
     axios.get('http://www.omdbapi.com/?apikey=trilogy&t=' + params)
         .then(function (response) {
 

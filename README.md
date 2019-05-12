@@ -32,6 +32,7 @@ Contribute away - just send me a pull request.
 ## Versioning
 
 Version 1.0
+clear
 
 ## Authors
 
